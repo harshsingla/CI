@@ -7,7 +7,9 @@ const Dashboard = () => {
     <div>
       <BlogList />
       <div className="fixed-action-btn">
+    // React redux Link route for blogs
         <Link to="/blogs/new" className="btn-floating btn-large red">
+    // Material icon 
           <i className="material-icons">add</i>
         </Link>
       </div>
